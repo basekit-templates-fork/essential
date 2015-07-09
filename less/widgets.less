@@ -64,7 +64,7 @@
 // -----------------------------
 
 .companyname {
-    padding: 40px 2%;
+    padding: 20px 2%;
     @media @tablet {
         text-align: center;
     }
@@ -213,11 +213,11 @@
 .feature__content-inner-wrap {
     position: absolute;
     right: 0;
-    background-color: darken(@color-swatch1, 100%);
+    background-color: fade(@color-swatch4, 10%);
     top: 0;
     bottom: 8px;
     padding: 30px;
-    width: 50%;
+    width: 49%;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -264,13 +264,14 @@
 
 .feature__headline {
     flex-shrink: 0;
-    color: @font-swatch7-color;
+    color: @font-swatch4-color;
     @media @tablet {
         font-size: bkscale(@font-swatch8-font-size,0.8);
         line-height: bkscale(@font-swatch8-line-height,0.9);
         max-width: 100%;
         margin: 0;
         padding: 0;
+        color: @font-swatch7-color;
     }
     @media @mobile {
         font-size: bkscale(@font-swatch8-font-size,0.7);
@@ -280,11 +281,12 @@
 
 .feature__strapline {
     flex-shrink: 0;
-    color: @font-swatch7-color;
+    color: @font-swatch4-color;
     @media @tablet {
         font-size: bkscale(@font-swatch9-font-size,0.8);
         line-height: bkscale(@font-swatch9-line-height,0.9);
         max-width: 100%;
+        color: @font-swatch7-color;
     }
     @media @mobile {
         font-size: bkscale(@font-swatch9-font-size,0.8);
@@ -300,9 +302,8 @@
     margin: 10px 0 0 0;
     color: @font-swatch7-color;
     flex-shrink: 0;
-    border: 1px solid @color-swatch7;
     &:hover {
-        background-color: @color-swatch4;
+        background-color: @color-swatch2;
     }
 }
 
