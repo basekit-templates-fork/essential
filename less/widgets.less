@@ -1,5 +1,5 @@
 // --------------------------------
-// Apparel: CSS > Widgets
+// Essential: CSS > Widgets
 // --------------------------------
 
 
@@ -67,7 +67,6 @@
     padding: 40px 2%;
     @media @tablet {
         text-align: center;
-        margin: 20px 0 20px;
     }
 }
 
@@ -131,7 +130,6 @@
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
-    margin-right: 5px;
     @media @tablet {
         -webkit-order: 4;
         -ms-flex-order: 4;
@@ -215,7 +213,7 @@
 .feature__content-inner-wrap {
     position: absolute;
     right: 0;
-    background-color: darken(@color-swatch1, 10%);
+    background-color: darken(@color-swatch1, 100%);
     top: 0;
     bottom: 8px;
     padding: 30px;
@@ -266,6 +264,7 @@
 
 .feature__headline {
     flex-shrink: 0;
+    color: @font-swatch7-color;
     @media @tablet {
         font-size: bkscale(@font-swatch8-font-size,0.8);
         line-height: bkscale(@font-swatch8-line-height,0.9);
@@ -281,6 +280,7 @@
 
 .feature__strapline {
     flex-shrink: 0;
+    color: @font-swatch7-color;
     @media @tablet {
         font-size: bkscale(@font-swatch9-font-size,0.8);
         line-height: bkscale(@font-swatch9-line-height,0.9);
@@ -299,8 +299,8 @@
 .feature__button {
     margin: 10px 0 0 0;
     color: @font-swatch7-color;
-    background-color: @color-swatch3;
-      flex-shrink: 0;
+    flex-shrink: 0;
+    border: 1px solid @color-swatch7;
     &:hover {
         background-color: @color-swatch4;
     }

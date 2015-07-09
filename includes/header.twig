@@ -3,7 +3,7 @@
     <div class="fixed-header">
         <div class="logo-header">
             <div class="logo-companyname">
-                    <span class="resize-logo">{{widget('logo', 'sitelogo', {"defaultlogo": asset('images/logo.jpg'),"showTplWidget":"0"})|raw}}</span>
+                    {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.jpg'),"showTplWidget":"0"})|raw}}
                     {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
                 <div class="header-extendednavigation">
                     {{widget('extendednavigation', 'extendednavigation', {})|raw}}

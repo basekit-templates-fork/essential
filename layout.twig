@@ -53,35 +53,6 @@
         });
     </script>
 
-<!-- Resizing Header Script -->
-    <script>
-        var headerHeight = $('.fixed-header').height();
-        var headerHandler = function () {
-
-            $('.fixed-header-wrap').height(headerHeight);
-
-            var scroll = getCurrentScroll();
-            if ( scroll >= 1 ) {
-                $('.fixed-header').addClass('shrink');
-            }
-            else
-            {
-                $('.fixed-header').removeClass('shrink');
-                $('.fixed-header-wrap').height('auto');
-            }
-
-            function getCurrentScroll() {
-                return window.pageYOffset || document.documentElement.scrollTop;
-            }
-        };
-
-        headerHandler();
-        $(document).ready(headerHandler);
-        $(window).resize(headerHandler);
-        $(window).scroll(headerHandler);
-
-    </script>
-
 </script>
 </body>
 </html>

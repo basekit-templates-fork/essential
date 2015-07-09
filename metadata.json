@@ -1,7 +1,7 @@
 {
-    "name":"Skate",
-    "thumbnail":"skate.png",
-    "screenshot":"skate.png",
+    "name":"Essential",
+    "thumbnail":"essential.png",
+    "screenshot":"essential.png",
     "tags": {
         "en": ["shopping", "ecommerce", "business", "store", "boutique", "professional", "minimal", "clean", "simple"],
         "es": ["compras", "ecommerce", "negocios", "tienda", "boutique", "profesional", "minimalista", "limpio", "simple"],
@@ -11,9 +11,6 @@
     "templateType":"ecommerce",
     "widgetVersion":2,
     "images":[
-        "images/slideshow/slideshow-1.jpg",
-        "images/slideshow/slideshow-2.jpg",
-        "images/slideshow/slideshow-3.jpg",
         "images/logo.jpg",
         "images/feature-img1.jpg",
         "images/feature-img2.jpg"
@@ -67,7 +64,7 @@
         }
     },
     "fontSwatch": {
-       "title": "Roboto Slab, Georgia, serif",
+       "title": "Lato, Geneva, Tahoma, sans-serif",
         "font1": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "26px",
