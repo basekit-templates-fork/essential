@@ -131,11 +131,15 @@
 }
 
 .extendednavigation__navigation-item.folder:hover .item-name--parent:after {
-      border-top-color: white;
+      border-top-color: @color-swatch1;
 }
 
-.extendednavigation__navigation-item.folder .extendednavigation__navigation-list:hover  {
-      background-color: black;
+.extendednavigation__navigation-item.folder:hover {
+    background-color: @color-swatch4;
+}
+
+.extendednavigation__navigation-item.folder:hover span {
+    color: white;
 }
 
 .item-name--parent {
@@ -183,6 +187,9 @@
 	}
 }
 
+.navigation-list--children {
+    border: 0;
+}
 
 // Burger Icon
 // -------------
