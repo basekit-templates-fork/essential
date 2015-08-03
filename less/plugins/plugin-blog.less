@@ -14,6 +14,14 @@
     margin: 10px 0px 20px;
 }
 
+.blogsearch__label {
+    display: none;
+}
+
+.blogsearch__input {
+    margin-top: 10px;
+}
+
 // Blog Post List
 
 // Blog Post List in 2 columns
@@ -366,6 +374,12 @@
     margin: 10px 0 30px;
 }
 
+.network-item {
+    @media @mobile {
+        display: block;
+    }
+}
+
 .blogpost__post-attributes {
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
@@ -390,18 +404,6 @@
     position: relative;
     border: 1px solid darken(@color-swatch1,10%);
     padding: 40px 20px 0 20px;
-    &:before {
-        content: '\2605';
-        color: @font-swatch4-color;
-        position: absolute;
-        top: -16px;
-        margin-left: -2px;
-        background-color: @color-swatch1;
-        width: 15px;
-        left: 0;
-        right: 0;
-        margin: 0px auto;
-    }
 }
 
 .blogpost__post-category {
